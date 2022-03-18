@@ -1,0 +1,6 @@
+sudo: required
+services: 
+  - docker
+script:
+  - docker build -t alex/node .
+  - docker images alex/node
